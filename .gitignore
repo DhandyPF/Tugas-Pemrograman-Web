@@ -35,6 +35,7 @@ temp/
 prd.md
 struktur-folder.md
 GEMINI.md
+README.md
 
 # User Uploads (abaikan file yang diupload user, tapi pertahankan foldernya)
 /assets/uploads/*

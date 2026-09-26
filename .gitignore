@@ -5,6 +5,7 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 ._*
+/.agents/rules
 
 # Editor & IDE Directories
 .vscode/

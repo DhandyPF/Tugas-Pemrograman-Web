@@ -1,0 +1,54 @@
+/* assets/css/responsive.css */
+/* Breakpoints: tablet ≤ 1024px, mobile ≤ 768px, small ≤ 480px */
+
+/* ── Tablet ─────────────────────────────────── */
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ── Mobile ─────────────────────────────────── */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.97);
+    padding: 1rem 2rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  nav ul.open {
+    display: flex;
+  }
+  nav .menu-toggle {
+    display: block;
+    font-size: 1.6rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1a237e;
+  }
+  .hero img {
+    height: 250px;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ── Small phones ────────────────────────────── */
+@media (max-width: 480px) {
+  nav .logo { font-size: 1.1rem; }
+  .hero img { height: 180px; }
+  .hero .caption { font-size: 0.9rem; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .container { width: 95%; }
+}

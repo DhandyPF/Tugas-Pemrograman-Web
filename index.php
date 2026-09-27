@@ -26,8 +26,8 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
     <div class="hero-slide">
       <img src="assets/img/hero/slide1.jpg" alt="Kegiatan Praktek">
       <div class="hero-caption">
-        <h2>Selamat Datang di SMK Kejuruan</h2>
-        <p>Mencetak generasi kompeten dan siap kerja sejak 1995</p>
+        <h2>Selamat Datang di SMK Blater</h2>
+        <p>Mencetak generasi kompeten dan siap kerja sejak 1945</p>
       </div>
     </div>
     <div class="hero-slide">
@@ -40,7 +40,7 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
     <div class="hero-slide">
       <img src="assets/img/hero/slide3.jpg" alt="PPDB 2027">
       <div class="hero-caption">
-        <h2>Penerimaan Peserta Didik Baru 2027</h2>
+        <h2>Penerimaan Peserta Didik Baru 2030</h2>
         <p>Daftarkan dirimu sekarang dan raih masa depanmu</p>
       </div>
     </div>
@@ -82,7 +82,7 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
         <div class="stat-label">Guru &amp; Tenaga Kependidikan</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">6</div>
+        <div class="stat-number">3</div>
         <div class="stat-label">Program Keahlian</div>
       </div>
       <div class="stat-item">
@@ -116,9 +116,9 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
         <!-- Placeholder cards -->
         <?php
         $placeholders = [
-          ['Rekayasa Perangkat Lunak', 'Mengembangkan aplikasi web & mobile berbasis industri.', 'rpl'],
-          ['Teknik Kendaraan Ringan', 'Perawatan & perbaikan kendaraan bermotor modern.', 'tkr'],
-          ['Desain Komunikasi Visual', 'Desain grafis, multimedia, dan visual branding.', 'dkv'],
+          ['Rekayasa Perangkat Lunak', 'Mengembangkan aplikasi web & mobile berbasis industri.', 'RPL'],
+          ['Teknik Kendaraan Ringan', 'Perawatan & perbaikan kendaraan bermotor modern.', 'TKR'],
+          ['Desain Komunikasi Visual', 'Desain grafis, multimedia, dan visual branding.', 'DKV'],
         ];
         foreach ($placeholders as $p):
         ?>
@@ -185,9 +185,9 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
         <?php else: ?>
           <?php
           $sampleAnn = [
-            ['Libur Hari Raya Idul Fitri 1448H', '2027-03-28'],
-            ['Ujian Akhir Semester Gasal', '2026-12-10'],
-            ['PPDB Gelombang 1 Dibuka', '2026-11-01'],
+            ['Libur Hari Raya Idul Fitri 1448H', '2030-03-28'],
+            ['Ujian Akhir Semester Gasal', '2030-12-10'],
+            ['PPDB Gelombang 1 Dibuka', '2030-11-01'],
           ];
           foreach ($sampleAnn as $sa):
             $tgl = date('d', strtotime($sa[1]));
@@ -222,8 +222,8 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
 <footer>
   <div class="container">
     <div class="footer">
-      <p>&copy; <?= date('Y'); ?> SMK Kejuruan. All rights reserved.</p>
-      <p>Alamat: Jalan Pendidikan No. 1, Kota Contoh, Indonesia | Tel: (021) 12345678 | Email: info@smkexample.id</p>
+      <p>&copy; <?= date('Y'); ?> SMK Blater. All rights reserved.</p>
+      <p>Alamat: Jalan Pendidikan No. 1, Blater, Purbalingga Indonesia | Tel: (021) 12345678 | Email: info@smkblater.com</p>
     </div>
   </div>
 </footer>

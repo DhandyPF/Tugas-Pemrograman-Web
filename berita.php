@@ -59,8 +59,8 @@ $newsList = $stmt->fetchAll();
 <footer>
   <div class="container">
     <div class="footer">
-      <p>&copy; <?= date('Y'); ?> SMK Kejuruan. All rights reserved.</p>
-      <p>Alamat: Jalan Pendidikan No. 1, Kota Contoh, Indonesia | Tel: (021) 12345678 | Email: info@smkexample.id</p>
+      <p>&copy; <?= date('Y'); ?> SMK Blater. All rights reserved.</p>
+      <p>Alamat: Jalan Pendidikan No. 1, Blater, Purbalingga Indonesia | Tel: (021) 12345678 | Email: info@smkblater.com</p>
     </div>
   </div>
 </footer>

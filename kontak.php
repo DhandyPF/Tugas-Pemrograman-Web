@@ -47,9 +47,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Info & Map -->
     <div>
       <h3>Informasi Kontak</h3>
-      <p>📍 Jl. Pendidikan No. 1, Kota Contoh, Indonesia</p>
+      <p>📍 Jl. Pendidikan No. 1, Blater, Purbalingga Indonesia</p>
       <p>📞 (021) 12345678</p>
-      <p>✉ info@smkexample.id</p>
+      <p>✉ info@smkblater.com</p>
       <p>🕐 Senin–Jumat: 07.00 – 15.30 WIB</p>
 
       <!-- Google Maps embed placeholder -->
@@ -65,8 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <footer>
   <div class="container">
     <div class="footer">
-      <p>&copy; <?= date('Y'); ?> SMK Kejuruan. All rights reserved.</p>
-      <p>Alamat: Jalan Pendidikan No. 1, Kota Contoh, Indonesia | Tel: (021) 12345678 | Email: info@smkexample.id</p>
+      <p>&copy; <?= date('Y'); ?> SMK Blater. All rights reserved.</p>
+      <p>Alamat: Jalan Pendidikan No. 1, Blater, Purbalingga Indonesia | Tel: (021) 12345678 | Email: info@smkblater.com</p>
     </div>
   </div>
 </footer>

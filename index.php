@@ -54,7 +54,7 @@ $jurusanList = $pdo->query('SELECT * FROM jurusan LIMIT 6')->fetchAll();
     <div class="sambutan">
       <img src="assets/img/kepsek.jpg" alt="Kepala Sekolah">
       <div>
-        <h3>H. Ahmad Fauzi, M.Pd.</h3>
+        <h3>Prof. Dr. Ir. Akhmad Sodiq, M.Sc. Agr., IPU., ASEAN Eng</h3>
         <p style="color:#888;font-size:0.88rem;margin-bottom:0.75rem;">Kepala SMK Blater</p>
         <blockquote>
           "Pendidikan kejuruan adalah jembatan antara potensi generasi muda dengan

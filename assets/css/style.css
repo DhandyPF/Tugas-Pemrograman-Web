@@ -563,7 +563,6 @@ footer address {
 }
 
 @media (max-width: 768px) {
-
   /* CSS-only hamburger menu */
   .menu-label {
     display: block;
@@ -583,7 +582,7 @@ footer address {
     border-radius: 0 0 12px 12px;
   }
 
-  #menu-toggle:checked~.nav-links {
+  #menu-toggle:checked ~ .nav-links {
     display: flex;
   }
 

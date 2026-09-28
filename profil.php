@@ -3,7 +3,7 @@ include __DIR__ . '/includes/header.php';
 ?>
 <div class="container" style="margin-top:2rem;">
   <h2>Profil Sekolah</h2>
-  <p>SMK Kejuruan adalah institusi pendidikan menengah kejuruan yang menyediakan berbagai program keahlian berstandar industri. Kami berkomitmen pada kualitas pengajaran, fasilitas modern, dan kerja sama dengan dunia usaha.</p>
+  <p>SMK Blater adalah institusi pendidikan menengah kejuruan yang menyediakan berbagai program keahlian berstandar industri. Kami berkomitmen pada kualitas pengajaran, fasilitas modern, dan kerja sama dengan dunia usaha.</p>
   <h3>Visi</h3>
   <p>Menjadi lembaga pendidikan kejuruan terdepan yang menghasilkan lulusan kompeten, siap kerja, dan berdaya saing global.</p>
   <h3>Misi</h3>

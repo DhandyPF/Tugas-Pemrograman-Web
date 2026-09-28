@@ -20,7 +20,7 @@ session_start();
 <!-- Utility bar -->
 <div class="utility-bar">
   <div class="container">
-    <span>📍 Jl. Pendidikan No. 1, Kota Contoh | ✉ info@smkexample.id</span>
+    <span>📍 Jl. Pendidikan No. 1, Blater, Purbalingga | ✉ info@smkblater.com</span>
     <span>
       <a href="#">Facebook</a> &nbsp;|&nbsp;
       <a href="#">Instagram</a> &nbsp;|&nbsp;

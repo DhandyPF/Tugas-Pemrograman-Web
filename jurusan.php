@@ -29,7 +29,7 @@ include __DIR__ . '/includes/header.php';
   <div class="container">
     <div class="footer">
       <p>&copy; <?= date('Y'); ?> SMK Blater. All rights reserved.</p>
-      <p>Alamat: Jalan Pendidikan No. 1, Kota Contoh, Indonesia | Tel: (021) 12345678 | Email: info@smkexample.id</p>
+      <p>Alamat: Jalan Pendidikan No. 1, Blater, Purbalingga | Tel: (0284) 421000 | Email: info@smkblater.com</p>
     </div>
   </div>
 </footer>

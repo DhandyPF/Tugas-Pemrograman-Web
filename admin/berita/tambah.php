@@ -9,7 +9,7 @@ $kategoriList = $pdo->query('SELECT * FROM kategori_berita ORDER BY nama_kategor
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $judul      = trim($_POST['judul'] ?? '');
-    $id_kategori= (int)($_POST['id_kategori'] ?? 0);
+    $id_kategori = (int)($_POST['id_kategori'] ?? 0);
     $konten     = trim($_POST['konten'] ?? '');
     $slug       = slugify($judul) . '-' . time();
 
@@ -64,7 +64,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="id_kategori">Kategori</label>
         <select id="id_kategori" name="id_kategori" required>
           <option value="">-- Pilih Kategori --</option>
-          <?php foreach ($kategoriList as $k): ?>
+          <?php
+          foreach ($kategoriList as $k): 
+          ?>
             <option value="<?= $k['id_kategori'] ?>"><?= h($k['nama_kategori']) ?></option>
           <?php endforeach; ?>
         </select>

@@ -36,6 +36,7 @@ prd.md
 struktur-folder.md
 GEMINI.md
 README.md
+/assets/img/berita/*
 
 # User Uploads (abaikan file yang diupload user, tapi pertahankan foldernya)
 /assets/uploads/*

@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMK Kejuruan – Portal Resmi</title>
+  <title>SMK Blater – Portal Resmi</title>
   <meta name="description" content="Website resmi SMK Kejuruan. Profil, program keahlian, berita, dan informasi PPDB.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@ session_start();
     <span>📍 Jl. Pendidikan No. 1, Blater, Purbalingga | ✉ info@smkblater.com</span>
     <span>
       <a href="#">Facebook</a> &nbsp;|&nbsp;
-      <a href="#">Instagram</a> &nbsp;|&nbsp;
+      <a href="https://www.instagram.com/dhandyputra.f/">Instagram</a> &nbsp;|&nbsp;
       <a href="admin/index.php">Login Petugas</a>
     </span>
   </div>
@@ -32,7 +32,7 @@ session_start();
 <!-- Navigation (CSS-only hamburger) -->
 <nav>
   <div class="nav-inner">
-    <div class="nav-logo">⚙ SMK Blater</div>
+    <div class="nav-logo"><a href="index.php">⚙ SMK Blater</a></div>
 
     <!-- Checkbox hack for mobile menu -->
     <input type="checkbox" id="menu-toggle">
@@ -43,8 +43,8 @@ session_start();
       <li><a href="profil.php">Profil</a></li>
       <li><a href="jurusan.php">Jurusan</a></li>
       <li><a href="berita.php">Berita</a></li>
-      <li><a href="kontak.php">Kontak</a></li>
-      <li><a href="#ppdb" class="cta">Daftar PPDB</a></li>
+      <!-- <li><a href="kontak.php">Kontak</a></li>
+      <li><a href="#ppdb" class="cta">Daftar PPDB</a></li> -->
     </ul>
   </div>
 </nav>

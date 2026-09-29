@@ -32,7 +32,7 @@ session_start();
 <!-- Navigation (CSS-only hamburger) -->
 <nav>
   <div class="nav-inner">
-    <div class="nav-logo">⚙ SMK Kejuruan</div>
+    <div class="nav-logo">⚙ SMK Blater</div>
 
     <!-- Checkbox hack for mobile menu -->
     <input type="checkbox" id="menu-toggle">

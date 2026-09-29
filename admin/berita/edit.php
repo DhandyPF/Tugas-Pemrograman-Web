@@ -90,6 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
   </div>
 </div>
-<script src="../../assets/js/admin.js"></script>
+
+<!-- <script src="../../assets/js/admin.js"></script> -->
 </body>
 </html>

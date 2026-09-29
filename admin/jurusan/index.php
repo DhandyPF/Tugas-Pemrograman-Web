@@ -81,6 +81,6 @@ $beritaList = $pdo->query('SELECT b.id_berita, b.judul, b.created_at, u.nama_len
   </div>
 </div>
 
-<script src="../../assets/js/admin.js"></script>
+<!-- <script src="../../assets/js/admin.js"></script> -->
 </body>
 </html>

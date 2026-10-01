@@ -22,7 +22,7 @@ session_start();
   <div class="container">
     <span>📍 Jl. Pendidikan No. 1, Blater, Purbalingga | ✉ info@smkblater.com</span>
     <span>
-      <a href="#">Facebook</a> &nbsp;|&nbsp;
+      <a href="https://github.com/">Facebook</a> &nbsp;|&nbsp;
       <a href="https://www.instagram.com/dhandyputra.f/">Instagram</a> &nbsp;|&nbsp;
       <a href="admin/index.php">Login Petugas</a>
     </span>
